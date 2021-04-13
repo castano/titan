@@ -1,0 +1,21 @@
+
+
+- write a decent memory allocator, and special purpouse allocators
+
+- support 3dfx gamma ramp
+- vertex lighting is currently very bad.
+
+SMALL TODO's
+
+driver: - TODO: testing on voodoo2-voodoo1
+camera: - TODO: separate viewport from camera, to support multiple viewports
+
+- math object, with processor detection... ???
+- is that usefull, or there would be too much indirection?
+
+
+-------
+texinfo has a little problem... we can load a texture with some flags, then we load the same texture but the texinfo has other flags, in this case the original flags remain constant and the new flags are ignored. We should probably create a new texinfo for the texture instead of creating a new one, but that involves loading the texture twice into memory. OpenGL properties attached to the flags are bound with the texture, so changing those properties in each binding would make things more confusing.
+--------
+
+

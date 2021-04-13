@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: rfrontend - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPD035.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /Fp"Debug/rfrontend.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\titan\code\rfrontend\source\TShaderParser.cpp"
+]
+Creating command line "xicl6.exe @C:\WINDOWS\TEMP\RSPD035.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD036.TMP" with contents
+[
+/nologo /out:"lib\rfrontend.lib" 
+.\Debug\BezierPatch.obj
+.\Debug\bsp.obj
+.\Debug\camera.obj
+.\Debug\frustum.obj
+.\Debug\layer.obj
+.\Debug\overlay.obj
+.\Debug\scene.obj
+.\Debug\shader.obj
+.\Debug\shaderfile.obj
+.\Debug\tex.obj
+.\Debug\world.obj
+.\Debug\TShaderParser.obj
+]
+Creating command line "xilink6.exe -lib @C:\WINDOWS\TEMP\RSPD036.TMP"
+<h3>Output Window</h3>
+Compiling...
+TShaderParser.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+rfrontend.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

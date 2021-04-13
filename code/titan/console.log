@@ -1,0 +1,49 @@
+Titan Engine v0.1 (private build) - x86-win32 - Apr 24 2000 - 14:51:32
+--- Setting up Titan System
+--- Reading Packs:
+--- 0 packed files
+--- Loading Libraries
+--- Creating Window
+--- Performance Counter available
+--- Creating input device
+--- Initializing Render
+--- Initializing driver
+--- Using Default OpenGL Driver c:\windows\system\opengl32.dll
+--- gl_acceleration: ICD
+--- gl_vendor: NVIDIA Corporation
+--- gl_renderer: RIVA TNT2/AGP/3DNOW!
+--- gl_version: 1.1.4
+--- gl_extensions: GL_ARB_multitexture GL_EXT_abgr GL_EXT_bgra
+GL_EXT_clip_volume_hint GL_EXT_compiled_vertex_array GL_EXT_fog_coord
+GL_EXT_packed_pixels GL_EXT_point_parameters GL_EXT_secondary_color
+GL_EXT_separate_specular_color GL_EXT_stencil_wrap GL_EXT_texture_env_add
+GL_EXT_texture_env_combine GL_EXT_texture_object GL_EXT_vertex_array
+GL_EXT_vertex_weighting GL_KTX_buffer_region GL_NV_fog_distance
+GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_SGIS_multitexture
+GL_WIN_swap_hint WGL_EXT_swap_control 
+--- gl_max_texture_size: 1024
+--- gl_max_texture_units: 2
+--- Initializing Camera
+--- Creating World
+--- Reading Shaders:
+ShaderMng: 3 shaders in memory
+*** Coudn't load console.wal
+*** Coudn't load gfx/2d/bigchars.wal
+*** Coudn't load gfx/misc/asidesoft.wal
+TexMng: 3 textures in memory
+HeapCheck: Heap is fine
+--- Entering game loop...
+
+--- Freeing world
+--- Reading Shaders:
+ShaderMng: 0 shaders in memory
+--- Freeing Textures
+TexMng: 0 textures in memory
+--- Shuting render
+--- shuting driver
+--- Shuting input device
+--- Destroying window
+--- 11 varibles:
+HeapCheck: Heap is fine
+DumpAllocs: No allocation checking!
+34 allocations

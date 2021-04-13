@@ -1,0 +1,30 @@
+Titan Engine v0.2
+(C) 2000 Ignacio Castano
+email: titan@talika.fie.us.es
+web: http://talika.fie.us.es/~titan/
+
+This is the source code of the Titan Engine. Titan Engine is available under a modified BSD license in the following direction. The license is detailed in LICENSE.txt.
+
+This code has been compiled without any problems with VisalC++ 6.0, but older versions may also work. In order to compile the code you have to add the following folders to include the search path:
+code/extern/include/
+code/game logic/include/
+code/input/include/
+code/rfrontend/include/
+code/shared/include/
+
+and those to the library search path:
+code/extern/lib/
+code/game logic/lib/
+code/input/lib/
+code/rfrontend/lib/
+code/shared/lib/
+
+That could be done with some sort of macro, but I didn't know how to do that. If you know it, we will be pleased if you tell it to us.
+
+Send your comments of the source code to titan@talika.fie.us.es
+
+If you have problems compiling the source code or you want to report or fix a bug, or add any modifications, please contact with us.
+
+
+Thanks for downloading the code.
+

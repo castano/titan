@@ -1,0 +1,98 @@
+# Microsoft Developer Studio Generated Dependency File, included by rendogl.mak
+
+..\shared\file.cpp : \
+	"..\..\..\archivos de programa\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\interfaces\cvars.h"\
+	"..\interfaces\file.h"\
+	"..\shared\errorlog.h"\
+	"..\shared\file.h"\
+	"..\shared\shared.h"\
+	"..\shared\surfaceflags.h"\
+	"..\shared\Tbitarray.h"\
+	"..\shared\TDefs_VcWin32.h"\
+	"..\shared\THashTable.h"\
+	"..\shared\TString.h"\
+	"..\shared\vars.h"\
+	
+
+..\shared\Vector.cpp : \
+	"..\..\..\archivos de programa\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\interfaces\cvars.h"\
+	"..\shared\shared.h"\
+	"..\shared\surfaceflags.h"\
+	"..\shared\Tbitarray.h"\
+	"..\shared\TDefs_VcWin32.h"\
+	"..\shared\THashTable.h"\
+	"..\shared\TString.h"\
+	"..\shared\vars.h"\
+	"..\shared\Vector.h"\
+	
+
+..\glsetup\gls.c : \
+	"..\..\..\archivos de programa\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\glsetup\gls.h"\
+	"..\glsetup\glsu.h"\
+	
+
+.\glutils.cpp : \
+	"..\..\..\archivos de programa\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\glsetup\gls.h"\
+	"..\interfaces\cvars.h"\
+	"..\interfaces\file.h"\
+	"..\interfaces\import.h"\
+	"..\interfaces\render.h"\
+	"..\shared\consts.h"\
+	"..\shared\geom.h"\
+	"..\shared\shared.h"\
+	"..\shared\surfaceflags.h"\
+	"..\shared\Tbitarray.h"\
+	"..\shared\TDefs_VcWin32.h"\
+	"..\shared\THashTable.h"\
+	"..\shared\TString.h"\
+	"..\shared\vars.h"\
+	"..\shared\Vector.h"\
+	".\driver.h"\
+	".\render.h"\
+	
+
+.\render.cpp : \
+	"..\..\..\archivos de programa\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\glsetup\gls.h"\
+	"..\interfaces\cvars.h"\
+	"..\interfaces\file.h"\
+	"..\interfaces\import.h"\
+	"..\interfaces\render.h"\
+	"..\shared\consts.h"\
+	"..\shared\geom.h"\
+	"..\shared\shared.h"\
+	"..\shared\surfaceflags.h"\
+	"..\shared\Tbitarray.h"\
+	"..\shared\TDefs_VcWin32.h"\
+	"..\shared\THashTable.h"\
+	"..\shared\TString.h"\
+	"..\shared\vars.h"\
+	"..\shared\Vector.h"\
+	".\driver.h"\
+	".\render.h"\
+	
+
+.\state.cpp : \
+	"..\..\..\archivos de programa\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\glsetup\gls.h"\
+	"..\interfaces\cvars.h"\
+	"..\interfaces\file.h"\
+	"..\interfaces\import.h"\
+	"..\interfaces\render.h"\
+	"..\shared\consts.h"\
+	"..\shared\geom.h"\
+	"..\shared\shared.h"\
+	"..\shared\surfaceflags.h"\
+	"..\shared\Tbitarray.h"\
+	"..\shared\TDefs_VcWin32.h"\
+	"..\shared\THashTable.h"\
+	"..\shared\TString.h"\
+	"..\shared\vars.h"\
+	"..\shared\Vector.h"\
+	".\driver.h"\
+	".\render.h"\
+	

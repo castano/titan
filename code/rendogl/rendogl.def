@@ -1,0 +1,9 @@
+; render.def : Declares the module parameters for the DLL.
+
+LIBRARY      REND_OGL
+DESCRIPTION  'Opengl Render Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	CreateRender	@1
+	DeleteRender	@2

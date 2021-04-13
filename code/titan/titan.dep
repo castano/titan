@@ -1,0 +1,179 @@
+# Microsoft Developer Studio Generated Dependency File, included by titan.mak
+
+..\shared\consts.cpp : \
+	"..\shared\consts.h"\
+	
+
+..\shared\errorlog.cpp : \
+	"..\..\..\archivos de programa\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\interfaces\file.h"\
+	"..\shared\errorlog.h"\
+	"..\shared\file.h"\
+	
+
+..\shared\file.cpp : \
+	"..\..\..\archivos de programa\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\interfaces\file.h"\
+	"..\shared\errorlog.h"\
+	"..\shared\file.h"\
+	
+
+..\shared\TCRC32.cpp : \
+	"..\..\..\archivos de programa\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\interfaces\cvars.h"\
+	"..\shared\shared.h"\
+	"..\shared\TDefs_VcWin32.h"\
+	"..\shared\THashTable.h"\
+	"..\shared\TString.h"\
+	"..\shared\vars.h"\
+	
+
+..\shared\vars.cpp : \
+	"..\..\..\archivos de programa\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\interfaces\cvars.h"\
+	"..\shared\shared.h"\
+	"..\shared\TDefs_VcWin32.h"\
+	"..\shared\THashTable.h"\
+	"..\shared\TString.h"\
+	"..\shared\vars.h"\
+	
+
+..\shared\Vector.cpp : \
+	"..\shared\Vector.h"\
+	
+
+.\bsp.cpp : \
+	"..\interfaces\file.h"\
+	"..\interfaces\render.h"\
+	"..\shared\consts.h"\
+	"..\shared\file.h"\
+	"..\shared\geom.h"\
+	".\bsp.h"\
+	".\cbatch.h"\
+	".\object.h"\
+	".\shader.h"\
+	
+
+.\cbatch.cpp : \
+	"..\shared\consts.h"\
+	"..\shared\geom.h"\
+	".\cbatch.h"\
+	".\shader.h"\
+	
+
+.\shader.cpp : \
+	"..\interfaces\file.h"\
+	"..\interfaces\render.h"\
+	"..\shared\consts.h"\
+	"..\shared\file.h"\
+	"..\shared\geom.h"\
+	".\shaderfile.h"\
+	".\tex.h"\
+	
+
+.\shaderfile.cpp : \
+	"..\interfaces\file.h"\
+	"..\interfaces\render.h"\
+	"..\shared\consts.h"\
+	"..\shared\errorlog.h"\
+	"..\shared\file.h"\
+	"..\shared\geom.h"\
+	".\shaderfile.h"\
+	".\tex.h"\
+	
+
+.\tex.cpp : \
+	"..\extern\include\jconfig.h"\
+	"..\extern\include\jmorecfg.h"\
+	"..\extern\include\jpeglib.h"\
+	"..\interfaces\file.h"\
+	"..\shared\consts.h"\
+	"..\shared\errorlog.h"\
+	"..\shared\file.h"\
+	"..\shared\geom.h"\
+	".\tex.h"\
+	
+
+.\cmd.cpp : \
+	"..\..\..\archivos de programa\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\interfaces\cvars.h"\
+	"..\interfaces\file.h"\
+	"..\interfaces\import.h"\
+	"..\interfaces\render.h"\
+	"..\shared\consts.h"\
+	"..\shared\errorlog.h"\
+	"..\shared\file.h"\
+	"..\shared\geom.h"\
+	"..\shared\shared.h"\
+	"..\shared\TDefs_VcWin32.h"\
+	"..\shared\THashTable.h"\
+	"..\shared\TString.h"\
+	"..\shared\vars.h"\
+	"..\shared\Vector.h"\
+	".\bsp.h"\
+	".\camera.h"\
+	".\cbatch.h"\
+	".\cmd.h"\
+	".\display.h"\
+	".\object.h"\
+	".\shader.h"\
+	".\tex.h"\
+	".\titan.h"\
+	".\window.h"\
+	".\world.h"\
+	
+
+.\display.cpp : \
+	"..\..\..\archivos de programa\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\interfaces\file.h"\
+	"..\shared\file.h"\
+	".\display.h"\
+	
+
+.\timer.cpp : \
+	"..\..\..\archivos de programa\microsoft visual studio\vc98\include\basetsd.h"\
+	".\timer.h"\
+	
+
+.\titan.cpp : \
+	"..\..\..\archivos de programa\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\interfaces\cvars.h"\
+	"..\interfaces\file.h"\
+	"..\interfaces\import.h"\
+	"..\interfaces\render.h"\
+	"..\shared\consts.h"\
+	"..\shared\errorlog.h"\
+	"..\shared\file.h"\
+	"..\shared\geom.h"\
+	"..\shared\shared.h"\
+	"..\shared\TDefs_VcWin32.h"\
+	"..\shared\THashTable.h"\
+	"..\shared\TString.h"\
+	"..\shared\vars.h"\
+	"..\shared\Vector.h"\
+	".\bsp.h"\
+	".\camera.h"\
+	".\cbatch.h"\
+	".\cmd.h"\
+	".\display.h"\
+	".\object.h"\
+	".\shader.h"\
+	".\tex.h"\
+	".\titan.h"\
+	".\window.h"\
+	".\world.h"\
+	
+
+.\window.cpp : \
+	"..\..\..\archivos de programa\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\interfaces\cvars.h"\
+	"..\interfaces\file.h"\
+	"..\shared\file.h"\
+	"..\shared\shared.h"\
+	"..\shared\TDefs_VcWin32.h"\
+	"..\shared\THashTable.h"\
+	"..\shared\TString.h"\
+	"..\shared\vars.h"\
+	".\display.h"\
+	".\window.h"\
+	

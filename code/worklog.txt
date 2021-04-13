@@ -1,0 +1,186 @@
+
+27/12/1999
++ shader references
++ search paths
++ search files by patterns
++ constants lookup
+
+28/12/1999
++ default shader
++ texinfo loading
++ default texinfo
++ tga and wal textures
+
+29/12/1999
++ world object
++ bbox defined
++ shader, tex and object tested
++ added colour to the batches
++ object initialization
++ cube object
+
+30/12/1999
++ cbatch object
++ grouping primitives
+
+31/12/1999
++ beginframe/endframe
++ beginworld/endworld
++ initial batch rendering
++ camera object
+
+10/01/2000
++ shaderfile object
++ shader parser
++ layer parser
++ file environment object
++ fixed MakeShaders
+
+11/01/2000
++ fixed sort invalid parameter
+
+12/01/2000
++ ParseFile object
++ shader parsing
++ command parsing
++ command list
++ common commands
++ error logging
++ make nearest filter by default
++ set & echo commands
++ fixed registerTexinfo
++ fixed texture loading. Now are loaded at parsing time.
++ FreeTextures isnt used no more.
+
+13/01/2000
++ fixed error reading shaders
++ lumpfile object
++ start writing q3 bsp object
++ bsp loading code
++ error recording, getLastError...
+
+15/01/2000
++ bsp shader loading
++ fixed error in tex loading preferences
++ jpeg support
++ fixed error in registerTexInfo
+
+18/01/2000
++ hash tables
++ vars object uses hash tables
++ more shader commands
+
+21/01/2000
++ render backend redesigned
++ bsp in grid mode
+
+25/01/2000
++ frustum object
++ frustum setup
++ frustum culling
++ some math stuff
+
+29/01/2000
++ solved problems with glblendfunc
++ animated textures
++ lightmaps
+
+01/02/2000
++ precomputed vertex lighting
++ solved more problems with glblendfunc and glDepthMask
++ now using interleaved arrays t2f_t2f_c4b_v3f
++ improved speed
++ compiled vertex arrays and support for other extensions
++ gamma ramp and overbright bits in hardware
++ shader references rewriten
++ growable array
+
+02/02/2000
++ solved buffer overflow problems
++ some optimizations
++ lightmap stack to reduce state changes
+
+08/02/2000
++ removed lightmap stack
++ go back to old vertex formats
++ more optimizations
++ reached 95% speed of quake3!
++ blendfunc
+
+04/03/2000
+* I have finished my exams!
++ added normals to the DataSource
++ 2d drawing: stretched bitmaps and strings
++ added console
++ bezier curved surfaces
++ added and removed dinamic tesselation
++ texture matrix and turbulences
+
+06/03/2000
++ swap control
++ multitexture support
+
+10/03/2000
++ keyboard and mouse input using directX or the win32 API
++ better multitexture support
++ client and player
++ character buffer for multiple languages
++ world have been redesigned as an object factory
+
+13/03/2000
++ added some little physics
++ some rendering optimizations
++ added some rtdsc tests
++ tested normal masks, but dont improve nothing at all
+
+16/03/2000
++ using intel jpeg library
+
+21/03/2000
+* I spend the last week ill in bed...
++ shader manager
++ allow dinamic shader loading
++ custom mipmapping and scaling routine
++ render info and state
++ the console recognise commands
+
+22/03/2000
++ directX mouse support
+
+16/04/2000
++ environment mapping
++ write alternative code for curves, that doesn't work
++ lot of testing in software mode
++ tcmod turb works right
++ the backend has been redesigned and rewroted.
++ textures, layer and shader managers
++ replaced generic vertex format with some predefined vertex formats
++ bsp loading code rewrote
++ fixed some errors in display changing
++ changed colour_t from char[4] to int (NOTE: take in mind bigendian processors...)
++ variable system have been rewrote
++ better multitexture collapsing
++ fixed lots of bugs (mainly leaks)
+
+17/04/2000
++ changed nearest=0, bilinear=1, trilinear=2
++ pushtriangles takes now surfaces instead of pointers to verts and elems
+
+18/04/2000
++ zip file support
++ fixed blendfunc bug
++ choose identity vs identity_lighting when appropiate
++ curves work now fine with the new backend
+
+19/04/2000
++ faster zip reading
+
+28/04/2000
++ environment mapping looks better
++ I have written a new shader parser, that is more object oriented and can be used for different purpouses, or in different modules or programs, but currently I'm not using it.
++ fixed more error in the new bezier patch implementation, however size calculation doesn't currently work.
++ new method for computing texture transformations
++ support for vertex deformations
+
+
+
